@@ -1,0 +1,167 @@
+#ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 10;
+	overflow: hidden;
+	background-color: transparent;
+	
+	
+
+}
+#li
+{
+	float: right;
+	
+}
+#lia
+{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	//background-color: blue;
+	opacity: 1;
+	margin: 2;
+}
+li a:hover
+{
+	background-color: green;
+}
+h3
+{
+	color: white;
+}
+h4
+{
+	opacity: 1;
+	font-family: serif;
+}
+#ul1
+{
+	
+	list-style-type: square;
+	color: black;
+	background-color: transparent;
+	vertical-align: text-top;
+}
+#li1
+{
+	
+	color: black;
+	text-align: left;
+	opacity: 1;
+}
+
+#divheader
+{
+	background-color: black;
+	opacity: 0.6;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 80;
+	position: relative;
+}
+
+#divfooter
+{
+	height: 10%;
+	width: 100%;
+	margin-left: 0;
+	margin-top: 5%;
+	text-align: center;
+	//padding-top: 5%;
+	background-color: black;
+	opacity: 0.4;
+	color: white;
+	display: inline-block;
+	//border-top-width: 100%;
+	//border-top-color: black;
+}
+body
+{
+	position: relative;
+	left: 0;
+	right: 0;
+	z-index: 0;
+	background-color: lightgrey;
+	display: block;
+	background-image: url("../images/futabg.jpg");
+	background-repeat: repeat-y;
+	//width: 100%;
+	//height: 100%;    
+    
+}
+
+#divmain
+{
+	background-color: transparent;
+	width: 80%;
+	margin-left: 10%;
+}
+
+table 
+{
+	font-size: 20;
+	color: white;
+	border-radius: 5px;
+	padding: 30px;
+	width: 100%;
+	position: relative;
+	float: left;
+	box-shadow: 0px 5px 5px 0px black;
+}
+#btw 
+{
+	padding-bottom: 10px;
+}
+input  
+{
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	border-radius: 5px;
+	border-color: lightblue;
+
+
+}
+#btninput  
+{
+	width: 50%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-shadow: 0px 0px 2px 2px #888888;
+	border-radius: 50px;
+	border-color: lightblue;
+	color: blue;
+	background-color: white;
+
+}
+#divlogin
+{
+	//margin-right: 30%;
+	width: 30%;
+	position: relative;
+	float: right;
+	background-color: rgba(0,0,0,0.8);
+}
+#divimg
+{
+	width: 30%;
+	float: right;
+	//background-image: url("../csc409/images/futalogoemboss.png");
+	background-color: rgba(255,255,255,0.2);
+	padding-right: 30%;
+	padding-top: 0;
+	box-shadow: 0px 0px 5px 0px black;
+	margin-right: 0;
+
+}
+h1
+{
+	color: white;
+	padding: 50;
+	font-family: sans-serif;
+}
+

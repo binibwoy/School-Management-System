@@ -1,0 +1,131 @@
+#ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 10;
+	overflow: hidden;
+	background-color: transparent;
+}
+#li
+{
+	float: right;	
+}
+#lia
+{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 15px 25px;
+	text-decoration: none;
+	//background-color: green;
+	opacity: 1;
+	margin: 2;
+}
+li a:hover
+{
+	background-color: green;
+	
+}
+h1
+{
+	color: white;
+	padding: 50;
+	font-family: sans-serif;
+}
+h4
+{
+	opacity: 1;
+	font-family: serif;
+	color: white;
+}
+#ul1
+{
+	
+	list-style-type: circle;
+	color: black;
+	background-color: transparent;
+	vertical-align: text-top;
+}
+#li1
+{
+	
+	color: white;
+	text-align: left;
+	font-size: 23;
+	text-indent: 5;
+	opacity: 1;
+}
+
+#divheader
+{
+	background-color: black;
+	opacity: 0.6;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 80;
+	position: relative;
+}
+
+#divfooter
+{
+	height: 10%;
+	width: 100%;
+	margin-left: 0;
+	margin-top: 5%;
+	text-align: center;
+	//padding-top: 5%;
+	background-color: black;
+	opacity: 0.4;
+	color: white;
+	display: inline-block;
+	//border-top-width: 100%;
+	//border-top-color: black;
+}
+body
+{
+	position: relative;
+	left: 0;
+	right: 0;
+	z-index: 0;
+	background-color: lightgrey;
+	display: block;
+	background-image: url("../images/futabg.jpg");
+	background-repeat: repeat-y;
+	//width: 100%;
+	//height: 100%;    
+    
+}
+
+#divmain
+{
+	background-color: transparent;
+	//height: 80%;
+	width: 80%;
+	margin-left: 10%;
+	//opacity: 0.4;
+}
+
+
+#divlist
+{
+	width: 30%;
+	position: relative;
+	float: left;
+	background-color: rgba(0,0,0,0.6);
+	box-shadow: 0px 5px 5px 0px black;
+	border-radius: 5px;
+	color: white;
+	
+}
+#divimg
+{
+	width: 30%;
+	float: right;
+	//background-image: url("../csc409/images/futalogoemboss.png");
+	background-color: rgba(255,255,255,0.2);
+	padding-right: 30%;
+	padding-top: 0;
+	box-shadow: 0px 0px 5px 0px black;
+
+}
+

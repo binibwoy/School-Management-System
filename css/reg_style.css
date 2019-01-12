@@ -1,0 +1,137 @@
+#ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 10;
+	overflow: hidden;
+	background-color: transparent;
+	
+	
+
+}
+#li
+{
+	float: right;
+	
+}
+#lia
+{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14 16;
+	text-decoration: none;
+	//background-color: blue;
+	opacity: 1;
+	margin: 2;
+}
+li a:hover
+{
+	background-color: green;
+}
+h4
+{
+	opacity: 1;
+	font-family: serif;
+}
+
+#divheader
+{
+	background-color: black;
+	opacity: 0.6;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 80;
+	position: relative;
+}
+
+#divfooter
+{
+	height: 10%;
+	width: 100%;
+	margin-left: 0;
+	margin-top: 5%;
+	text-align: center;
+	//padding-top: 5%;
+	background-color: black;
+	opacity: 0.4;
+	color: white;
+	display: inline-block;
+	//border-top-width: 100%;
+	//border-top-color: black;
+}
+body
+{
+	
+	background-color: lightgrey;
+	background-image: url("../images/futabg.jpg");
+	background-repeat: repeat-y;   
+    
+}
+
+#divmain
+{
+	background-color: transparent;
+	height: 80%;
+	width: 80%;
+	margin-left: 10%;
+	//opacity: 0.4;
+}
+
+
+
+
+#btw 
+{
+	padding-bottom: 10px;
+	color: white;
+}
+input  
+{
+	//width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	border-radius: 5px;
+	border-color: lightblue;
+
+
+}
+#btninput  
+{
+	width: 30%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-shadow: 0px 0px 2px 2px #888888;
+	border-radius: 50px;
+	border-color: lightblue;
+	color: blue;
+	background-color: white;
+
+}
+#divreg
+{
+	
+	margin-left: 8%;
+	border-radius: 5px;
+	padding: 30px;
+	width: 80%;
+	position: relative;
+	background-color: rgba(0,0,0,0.6);
+	box-shadow: 0px 5px 5px 0px black;
+}
+
+
+h3
+{
+	text-align: left;
+	color: white;
+	font-style: oblique;
+}
+
+h1
+{
+	color: white;
+	padding: 50;
+	font-family: sans-serif;
+}
+
